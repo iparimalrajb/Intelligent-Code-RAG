@@ -21,8 +21,12 @@ env/
 .streamlit/
 
 # ---------------- RAG Specific ----------------
-code_index/     # FAISS vector DB
-repo/           # cloned GitHub repos
+code_index/
+repo/
+
+# Extra safety
+*.faiss
+*.pkl
 
 # ---------------- Logs ----------------
 *.log
